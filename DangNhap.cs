@@ -38,9 +38,9 @@ namespace KiemThuPhanMem
             if ((txtMaNV.Text == "admin" || txtMaNV.Text == "000") && (txtMatKhau.Text == "admin"))
             {
                 MessageBox.Show(this, "Đăng nhập thành công", "Thông báo");
-                //TrangChu ch = new TrangChu();
-                //ch.Show();
-                //this.Hide();
+                TrangChu ch = new TrangChu();
+                ch.Show();
+                this.Hide();
             }
             else
                 MessageBox.Show(this, "Tên đăng nhập hoặc mật khẩu sai", "Thông báo");

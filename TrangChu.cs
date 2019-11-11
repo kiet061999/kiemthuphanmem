@@ -61,14 +61,24 @@ namespace KiemThuPhanMem
 
         private void CapNhatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //if (!CheckExistForm("CapNhat"))
-            //{
-            //    CapNhat cn = new CapNhat();
-            //    cn.MdiParent = this;
-            //    cn.Show();
-            //}
-            //else
-            //    ActiveChildForm("CapNhat");
+            if (!CheckExistForm("CapNhat"))
+            {
+                CapNhat cn = new CapNhat();
+                cn.MdiParent = this;
+                cn.Show();
+            }
+            else
+               ActiveChildForm("CapNhat");
+        }
+
+        private void ActiveChildForm(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        private bool CheckExistForm(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
