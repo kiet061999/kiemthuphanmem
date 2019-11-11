@@ -84,21 +84,23 @@
             // MuonToolStripMenuItem
             // 
             this.MuonToolStripMenuItem.Name = "MuonToolStripMenuItem";
-            this.MuonToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.MuonToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.MuonToolStripMenuItem.Text = "Quản Lý Mượn";
             this.MuonToolStripMenuItem.Click += new System.EventHandler(this.MuonToolStripMenuItem_Click);
             // 
             // quanLyTraToolStripMenuItem
             // 
             this.quanLyTraToolStripMenuItem.Name = "quanLyTraToolStripMenuItem";
-            this.quanLyTraToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.quanLyTraToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.quanLyTraToolStripMenuItem.Text = "Quản Lý Trả";
+            this.quanLyTraToolStripMenuItem.Click += new System.EventHandler(this.quanLyTraToolStripMenuItem_Click);
             // 
             // đoiTaiKhoanToolStripMenuItem
             // 
             this.đoiTaiKhoanToolStripMenuItem.Name = "đoiTaiKhoanToolStripMenuItem";
             this.đoiTaiKhoanToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
             this.đoiTaiKhoanToolStripMenuItem.Text = "Đổi Tài Khoản";
+            this.đoiTaiKhoanToolStripMenuItem.Click += new System.EventHandler(this.đoiTaiKhoanToolStripMenuItem_Click);
             // 
             // hôTrơToolStripMenuItem
             // 

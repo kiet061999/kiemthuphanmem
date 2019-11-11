@@ -16,7 +16,7 @@ namespace KiemThuPhanMem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CapNhat());
+            Application.Run(new TrangChu());
         }
     }
 }

@@ -48,37 +48,49 @@ namespace KiemThuPhanMem
         }
         private void MuonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //if (!CheckExistForm("MuonSach"))
-            //{
-            //    MuonSach ms = new MuonSach();
-            //    ms.MdiParent = this;
-            //    ms.Show();
-            //    //this.Hide();
-            //}
-            //else
-            //    ActiveChildForm("MuonSach");
+            MessageBox.Show(this, "Hệ thống chưa có chức năng này", "Thông báo");
         }
 
         private void CapNhatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!CheckExistForm("CapNhat"))
-            {
+            //if (!CheckExistForm("CapNhat"))
+            //{
                 CapNhat cn = new CapNhat();
                 cn.MdiParent = this;
                 cn.Show();
-            }
-            else
-               ActiveChildForm("CapNhat");
+            //this.Hide();
+            //}
+            //else
+            //   ActiveChildForm("CapNhat");
         }
 
-        private void ActiveChildForm(string v)
+        private void quanLyTraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            MessageBox.Show(this, "Hệ thống chưa có chức năng này", "Thông báo");
         }
 
-        private bool CheckExistForm(string v)
+        private void đoiTaiKhoanToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            //if (!CheckExistForm("DangNhap"))
+            //{
+                DangNhap lg = new DangNhap();
+                //lg.MdiParent = this;
+                lg.Show();
+            this.Hide();
+            //}
+            //else
+            //    ActiveChildForm("frmLogin");
         }
+
+        //private void ActiveChildForm(string v)
+        //{
+        //    MessageBox.Show(this, "Hệ thống chưa có chức năng này", "Thông báo");
+        //}
+
+        //private bool CheckExistForm(string v)
+        //{
+        //    MessageBox.Show(this, "Hệ thống chưa có chức năng này", "Thông báo");
+        //    throw new NotImplementedException();
     }
-}
+    }
+
